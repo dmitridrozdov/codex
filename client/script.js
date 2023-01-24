@@ -84,6 +84,7 @@ const handleSubmit = async (e) => {
 
     // messageDiv.innerHTML = "..."
     loader(messageDiv)
+    console.log('data = ' + data.get('prompt'))
 
     const response = await fetch('https://codex-ztt6.onrender.com/', {
     // const response = await fetch('http://localhost:5000', {
