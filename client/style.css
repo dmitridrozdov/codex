@@ -1,20 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;300;400;500;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Unbounded:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Alegreya Sans", sans-serif;
+  font-family: "Kanit", sans-serif;
 }
 
 body {
-  background: #343541;
+  background: #fff;
 }
 
 #app {
   width: 100vw;
   height: 100vh;
-  background: #343541;
+  background: #fff;
 
   display: flex;
   flex-direction: column;
@@ -50,7 +52,7 @@ body {
 }
 
 .ai {
-  background: #40414F;
+  background: #f4f4f5;
 }
 
 .chat {
@@ -89,8 +91,8 @@ body {
 .message {
   flex: 1;
 
-  color: #dcdcdc;
-  font-size: 20px;
+  color: #5f5e5e;
+  font-size: 16px;
 
   max-width: 100%;
   overflow-x: scroll;
@@ -117,7 +119,7 @@ form {
   max-width: 1280px;
   margin: 0 auto;
   padding: 10px;
-  background: #40414F;
+  background: rgb(245, 244, 244);
 
   display: flex;
   flex-direction: row;
@@ -127,8 +129,8 @@ form {
 textarea {
   width: 100%;
 
-  color: #fff;
-  font-size: 18px;
+  color: rgb(2, 2, 2);
+  font-size: 16px;
 
   padding: 10px;
   background: transparent;
